@@ -39,7 +39,7 @@ Install Clang, LLD, Python 3, a compatible C++ runtime/toolchain, and GTK3/X11 d
 python3 relink.py --kit relink-kit --output "$PWD/ac6recomp-relinked"
 ```
 
-The tool checks the size and SHA256 of every original object/archive before invoking `clang++` directly. It refuses to overwrite an existing output. `--dry-run` validates and prints the command without linking. The system shared-library arguments remain Linux `/usr/lib/` development-library paths. You can inspect every linker argument in `link.json`.
+The tool checks the size and SHA256 of every original object/archive before invoking `clang++` directly. It refuses to overwrite an existing output. `--dry-run` validates and prints the command without linking. System shared libraries are resolved by the linker from the installed development packages listed in `build-packages.txt`. You can inspect every linker argument in `link.json`.
 
 This release's verification record reports the result of actually relinking these objects and comparing the output with the packaged executable.
 
