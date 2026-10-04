@@ -29,7 +29,7 @@ This is a fresh October 4, 2026 build of the preserved September 13 performance-
 
 It includes the custom Vulkan pipeline path integrated into ReXGlue/Xenia, targeted clear/transfer optimizations, main-scene 1x MSAA at 1280x720, 60 FPS timing/physics hooks, bounded pacing with two frames in flight, and the preserved Linux/audio/save fixes. Original effects sampling and normal controller input remain available.
 
-The earlier executable averaged **59.96 unique FPS over one 80-second Mission 1 segment**, using a private Mesa driver. That measurement is not a benchmark of this rebuilt executable or the host-driver configuration. **Locked 60 FPS across the game is not established.** The relocated package passed a 30-second fresh-profile startup/shutdown check and displayed the opening ESRB notice. This does not validate gameplay, audio quality, or controls across missions. Known shutdown/audio warnings remain. See the [historical measurement details](https://github.com/DogeXH/ACE6-Recomp-Linux/blob/fc3667f759f705777edb3181af8133f14f901ca7/docs/LINUX_PERFORMANCE.md) and this release's `VERIFICATION.json` for the actual checks performed.
+The earlier executable averaged **59.96 unique FPS over one 80-second Mission 1 segment**, using a private Mesa driver. That measurement is not a benchmark of this rebuilt executable or the host-driver configuration. **Locked 60 FPS across the game is not established.** The relocated package passed a 30-second fresh-profile startup/shutdown check and displayed the opening ESRB notice. This does not validate gameplay, audio quality, or controls across missions. Known shutdown/audio warnings remain. See `docs/LINUX_PERFORMANCE.md` in the [source archive](https://github.com/DogeXH/ACE6-Recomp-Linux-Binaries/releases/download/linux-x86_64-2026-10-04/ac6-source-20261004.tar.gz) for historical measurement details, and this release's `VERIFICATION.json` for the actual checks performed.
 
 ## Downloads and source
 
@@ -39,6 +39,6 @@ The earlier executable averaged **59.96 unique FPS over one 80-second Mission 1 
 - `runtime-sources-20261004.tar.gz`: source and packaging material for the privately bundled C/C++ runtime.
 - `SHA256SUMS`: SHA256 checksums for the release archives.
 
-The project source is also available in [DogeXH/ACE6-Recomp-Linux](https://github.com/DogeXH/ACE6-Recomp-Linux/tree/fc3667f759f705777edb3181af8133f14f901ca7). See [BUILD_AND_RELINK.md](BUILD_AND_RELINK.md) for rebuild/relink instructions and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for licenses and attribution.
+The corresponding project source remains publicly available in this release's [source archive](https://github.com/DogeXH/ACE6-Recomp-Linux-Binaries/releases/download/linux-x86_64-2026-10-04/ac6-source-20261004.tar.gz). See [BUILD_AND_RELINK.md](BUILD_AND_RELINK.md) for rebuild/relink instructions and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for licenses and attribution.
 
 This unofficial fan project builds on AC6Recomp, ReXGlue, Xenia, and their contributors. It is not affiliated with Bandai Namco, Project Aces, or Microsoft.

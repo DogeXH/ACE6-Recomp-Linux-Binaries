@@ -2,6 +2,7 @@
   "date": "2026-10-04",
   "source_repository": "https://github.com/DogeXH/ACE6-Recomp-Linux",
   "source_commit": "fc3667f759f705777edb3181af8133f14f901ca7",
+  "source_archive": "https://github.com/DogeXH/ACE6-Recomp-Linux-Binaries/releases/download/linux-x86_64-2026-10-04/ac6-source-20261004.tar.gz",
   "restored_source_records_verified": 19016,
   "fresh_linux_build": true,
   "compiler": "Clang 23.1.1",
