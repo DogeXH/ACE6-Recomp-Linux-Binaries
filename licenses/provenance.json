@@ -1,0 +1,429 @@
+{
+  "description": "License and notice provenance for the vendored runtime; local paths are relative to the corresponding source tree. This inventory does not identify final linker retention.",
+  "prepared_date": "2026-10-04",
+  "files": [
+    {
+      "file": "licenses/ac6-recomp/LICENSE",
+      "source": "LICENSE",
+      "method": "verbatim local copy",
+      "sha256": "f8c7147eba0225be836dd7f701bd9e254b76386271fe0a57955ee479864b1c97"
+    },
+    {
+      "file": "licenses/aes_128/LICENSE",
+      "source": "thirdparty/rexglue-sdk/thirdparty/aes_128/LICENSE",
+      "method": "verbatim local copy",
+      "sha256": "756965be50afde53fe51d47da4fe180f82fdfaa5e72ed591d84d05df5bef4e3c"
+    },
+    {
+      "file": "licenses/cli11/LICENSE",
+      "source": "thirdparty/rexglue-sdk/thirdparty/cli11/LICENSE",
+      "method": "verbatim local copy",
+      "sha256": "3a70a5dffdaefe4c434660a8270f679ae18dd3c34208fb0b461a665bfcfe3e97"
+    },
+    {
+      "file": "licenses/crypto/Rijndael-NOTICE.txt",
+      "source": "thirdparty/rexglue-sdk/thirdparty/crypto/rijndael-alg-fst.c",
+      "method": "verbatim source comment",
+      "sha256": "d41ca4a99c47bca07d7a8c154e3a19ff3e5b1f00ce539aea4a9d9e9f5827e4d6",
+      "source_lines": [
+        1,
+        25
+      ]
+    },
+    {
+      "file": "licenses/crypto/SHA256-NOTICE.txt",
+      "source": "thirdparty/rexglue-sdk/thirdparty/crypto/sha256.cpp",
+      "method": "verbatim source comment",
+      "sha256": "0ed56d5f9886731f65fed00ba97a5e329c86b05fbbcb7a43353b5a78c49e546c",
+      "source_lines": [
+        1,
+        6
+      ]
+    },
+    {
+      "file": "licenses/crypto/TinySHA1-NOTICE.txt",
+      "source": "thirdparty/rexglue-sdk/thirdparty/crypto/TinySHA1.hpp",
+      "method": "verbatim source comment",
+      "sha256": "ac2981808bb038e18467c4371b0afcba0b93821d32702d9aa20a7d42cf90c40f",
+      "source_lines": [
+        1,
+        24
+      ]
+    },
+    {
+      "file": "licenses/crypto/des/LICENSE",
+      "source": "thirdparty/rexglue-sdk/thirdparty/crypto/des/LICENSE",
+      "method": "verbatim local copy",
+      "sha256": "61445c2be57daec4b5a09a7e21ef05376406f2163c4a7c7b663c409664c17857"
+    },
+    {
+      "file": "licenses/disruptorplus/LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/lewissbaker/disruptorplus/748e354476e0bf86dfdbb55f1d925222d7ee631b/LICENSE.txt",
+      "method": "verbatim upstream HTTPS download",
+      "retrieved_date": "2026-10-04",
+      "sha256": "a56f05c0dbd9489e928fd3ca22712f90b310fe749ceef47059e895f6a235100c"
+    },
+    {
+      "file": "licenses/ffmpeg/COPYING.LGPLv2.1",
+      "source": "thirdparty/rexglue-sdk/thirdparty/FFmpeg/COPYING.LGPLv2.1",
+      "method": "verbatim local copy",
+      "sha256": "b634ab5640e258563c536e658cad87080553df6f34f62269a21d554844e58bfe"
+    },
+    {
+      "file": "licenses/ffmpeg/IJG-jfdctfst.c-NOTICE.txt",
+      "source": "thirdparty/rexglue-sdk/thirdparty/FFmpeg/libavcodec/jfdctfst.c",
+      "method": "verbatim source comment",
+      "sha256": "9608a1781393c906ac6254ee965f19a599608428eaf84efdd8c7ba198f14e877",
+      "source_lines": [
+        1,
+        62
+      ]
+    },
+    {
+      "file": "licenses/ffmpeg/IJG-jfdctint_template.c-NOTICE.txt",
+      "source": "thirdparty/rexglue-sdk/thirdparty/FFmpeg/libavcodec/jfdctint_template.c",
+      "method": "verbatim source comment",
+      "sha256": "7469382cb23a47a033113c2c00d8e02e5071d76cb420d804f078527a906da679",
+      "source_lines": [
+        1,
+        55
+      ]
+    },
+    {
+      "file": "licenses/ffmpeg/IJG-jrevdct.c-NOTICE.txt",
+      "source": "thirdparty/rexglue-sdk/thirdparty/FFmpeg/libavcodec/jrevdct.c",
+      "method": "verbatim source comment",
+      "sha256": "c5d96aa8ff9e78b9214a1bec3d2dd5d65e3196eae08fa7c6ba7466a5a793ba0f",
+      "source_lines": [
+        1,
+        58
+      ]
+    },
+    {
+      "file": "licenses/ffmpeg/LICENSE.md",
+      "source": "thirdparty/rexglue-sdk/thirdparty/FFmpeg/LICENSE.md",
+      "method": "verbatim local copy",
+      "sha256": "cb48bf09a11f5fb576cddb0431c8f5ed0a60157a9ec942adffc13907cbe083f2"
+    },
+    {
+      "file": "licenses/fmt/LICENSE",
+      "source": "thirdparty/rexglue-sdk/thirdparty/fmt/LICENSE",
+      "method": "verbatim local copy",
+      "sha256": "07580f2a3b35709ce703d523f447b242f6dfec7582a8c0df102c7fa2849375f8"
+    },
+    {
+      "file": "licenses/glslang/LICENSE.txt",
+      "source": "thirdparty/rexglue-sdk/thirdparty/glslang/LICENSE.txt",
+      "method": "verbatim local copy",
+      "sha256": "130b2e98901db02a83e5e83c132b22d22d9279155feb53c49d6471b75af3c352"
+    },
+    {
+      "file": "licenses/imgui/LICENSE.txt",
+      "source": "thirdparty/rexglue-sdk/thirdparty/imgui/LICENSE.txt",
+      "method": "verbatim local copy",
+      "sha256": "c80c5789748d955c4a650562baa0d750494e2c7128c2ca66aaebe2e3c4e198bf"
+    },
+    {
+      "file": "licenses/imgui/imstb_rectpack.h-LICENSE.txt",
+      "source": "thirdparty/rexglue-sdk/thirdparty/imgui/imstb_rectpack.h",
+      "method": "verbatim source comment",
+      "sha256": "7587efcca32db8f95bf5860dea6dfa4be410ee723e1964db3689c8ddf2a2e4a9",
+      "source_lines": [
+        587,
+        627
+      ]
+    },
+    {
+      "file": "licenses/imgui/imstb_textedit.h-LICENSE.txt",
+      "source": "thirdparty/rexglue-sdk/thirdparty/imgui/imstb_textedit.h",
+      "method": "verbatim source comment",
+      "sha256": "7587efcca32db8f95bf5860dea6dfa4be410ee723e1964db3689c8ddf2a2e4a9",
+      "source_lines": [
+        1487,
+        1527
+      ]
+    },
+    {
+      "file": "licenses/imgui/imstb_truetype.h-LICENSE.txt",
+      "source": "thirdparty/rexglue-sdk/thirdparty/imgui/imstb_truetype.h",
+      "method": "verbatim source comment",
+      "sha256": "7587efcca32db8f95bf5860dea6dfa4be410ee723e1964db3689c8ddf2a2e4a9",
+      "source_lines": [
+        5045,
+        5085
+      ]
+    },
+    {
+      "file": "licenses/libmspack/COPYING.LIB",
+      "source": "thirdparty/rexglue-sdk/thirdparty/libmspack/libmspack/COPYING.LIB",
+      "method": "verbatim local copy",
+      "sha256": "885a03f54b157961236f46843e79972abfcd6890b6cbb368bc7eca328ff95a12"
+    },
+    {
+      "file": "licenses/libmspack/lzxd-NOTICE.txt",
+      "source": "thirdparty/rexglue-sdk/thirdparty/libmspack/cabextract/mspack/lzxd.c",
+      "method": "verbatim source comment",
+      "sha256": "f6b524f3dd0633f7320fcdcb2b062f84c867a690e48e0a7ec4b2f12fc7ca6cfb",
+      "source_lines": [
+        1,
+        11
+      ]
+    },
+    {
+      "file": "licenses/o1heap/LICENSE",
+      "source": "thirdparty/rexglue-sdk/thirdparty/o1heap/LICENSE",
+      "method": "verbatim local copy",
+      "sha256": "9b853befdac9b2907131427795b66e0dbfdd0cfa8ecd25a58167893b8c1f0f4d"
+    },
+    {
+      "file": "licenses/renderdoc/NOTICE.txt",
+      "source": "thirdparty/rexglue-sdk/thirdparty/renderdoc/renderdoc_app.h",
+      "method": "verbatim source comment",
+      "sha256": "0dcc8c60f928a57044b035a580d7293483ccd7a875d1ae7d504e7ca289bdfe04",
+      "source_lines": [
+        1,
+        23
+      ]
+    },
+    {
+      "file": "licenses/rexglue/LICENSE",
+      "source": "thirdparty/rexglue-sdk/LICENSE",
+      "method": "verbatim local copy",
+      "sha256": "8e065be1da2ff9a16b1f063d4636d8b67e6a654bb90583ea4332e66ac421bb18"
+    },
+    {
+      "file": "licenses/sdl3/LICENSE.txt",
+      "source": "thirdparty/rexglue-sdk/thirdparty/sdl3/LICENSE.txt",
+      "method": "verbatim local copy",
+      "sha256": "1c040b8271b37e5076359f8fd54240e371114112924d2df81ef87c7d6a1dfdfd"
+    },
+    {
+      "file": "licenses/sdl3/hidapi/LICENSE-bsd.txt",
+      "source": "thirdparty/rexglue-sdk/thirdparty/sdl3/src/hidapi/LICENSE-bsd.txt",
+      "method": "verbatim local copy",
+      "sha256": "30eb1bef29b46f8ba7ab8b416035dbd93cb034a45481dd97815b944284582cd2"
+    },
+    {
+      "file": "licenses/sdl3/hidapi/LICENSE-orig.txt",
+      "source": "thirdparty/rexglue-sdk/thirdparty/sdl3/src/hidapi/LICENSE-orig.txt",
+      "method": "verbatim local copy",
+      "sha256": "fb5436aa63d1b71a8dfbf74ecaf1a5b4e1ec4df7f80074d11fec99284f69ca5f"
+    },
+    {
+      "file": "licenses/sdl3/hidapi/LICENSE.txt",
+      "source": "thirdparty/rexglue-sdk/thirdparty/sdl3/src/hidapi/LICENSE.txt",
+      "method": "verbatim local copy",
+      "sha256": "7d3b087c34f35d4d538e3bcddd1ff8f66e92f9ef336881999482800ddf840913"
+    },
+    {
+      "file": "licenses/simde/COPYING",
+      "source": "thirdparty/rexglue-sdk/thirdparty/simde/COPYING",
+      "method": "verbatim local copy",
+      "sha256": "75ce0a8c5a7bff42fbd6f8f3b469b518132132c4f4948fb8d02b1ccb5d0df9d8"
+    },
+    {
+      "file": "licenses/snappy/COPYING",
+      "source": "thirdparty/rexglue-sdk/thirdparty/snappy/COPYING",
+      "method": "verbatim local copy",
+      "sha256": "55172044f7e241207117448a4d9d6ba1d0925c8ad66b5d4c08c70adfa9cc3de6"
+    },
+    {
+      "file": "licenses/spdlog/LICENSE",
+      "source": "thirdparty/rexglue-sdk/thirdparty/spdlog/LICENSE",
+      "method": "verbatim local copy",
+      "sha256": "d678c20826e1392578508e1c78649a1e3c31bda05ef4388d967dbd654461b140"
+    },
+    {
+      "file": "licenses/spirv-headers/LICENSE",
+      "source": "thirdparty/rexglue-sdk/thirdparty/spirv-headers/LICENSE",
+      "method": "verbatim local copy",
+      "sha256": "ea43b1de38a6f90c488800d66dec1ed671e68cda530266bc96951fb5b6307613"
+    },
+    {
+      "file": "licenses/spirv-headers/LICENSES/CC-BY-4.0.txt",
+      "source": "thirdparty/rexglue-sdk/thirdparty/spirv-headers/LICENSES/CC-BY-4.0.txt",
+      "method": "verbatim local copy",
+      "sha256": "d557539df68e771cc1eedcc91d13f70fca930e508d11eedcafa4b15db49e3744"
+    },
+    {
+      "file": "licenses/spirv-headers/LICENSES/MIT.txt",
+      "source": "thirdparty/rexglue-sdk/thirdparty/spirv-headers/LICENSES/MIT.txt",
+      "method": "verbatim local copy",
+      "sha256": "6d7c9e9d7d12c8d3753bdb24417b84819ba4d6c2f025c37948113d86dc81eef9"
+    },
+    {
+      "file": "licenses/spirv-tools/LICENSE",
+      "source": "thirdparty/rexglue-sdk/thirdparty/spirv-tools/LICENSE",
+      "method": "verbatim local copy",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "file": "licenses/tomlplusplus/LICENSE",
+      "source": "thirdparty/rexglue-sdk/thirdparty/tomlplusplus/LICENSE",
+      "method": "verbatim local copy",
+      "sha256": "529bc3900a9571e49db285b0df432397e70b881cc3bf48de6667ae74ff4b06d8"
+    },
+    {
+      "file": "licenses/utfcpp/LICENSE",
+      "source": "thirdparty/rexglue-sdk/thirdparty/utfcpp/LICENSE",
+      "method": "verbatim local copy",
+      "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566"
+    },
+    {
+      "file": "licenses/volk/LICENSE.md",
+      "source": "thirdparty/rexglue-sdk/thirdparty/volk/LICENSE.md",
+      "method": "verbatim local copy",
+      "sha256": "e85b35831f01da6aa8c029f0a06a0468be143534babe9014e37ee03bf078bf36"
+    },
+    {
+      "file": "licenses/vulkan-headers/LICENSE.md",
+      "source": "thirdparty/rexglue-sdk/thirdparty/vulkan-headers/LICENSE.md",
+      "method": "verbatim local copy",
+      "sha256": "ac24e5ea920e4318e4d02c4086ae51f53cfb03feed06c18df1019e7ada1ec7bc"
+    },
+    {
+      "file": "licenses/vulkan-headers/LICENSES/Apache-2.0.txt",
+      "source": "thirdparty/rexglue-sdk/thirdparty/vulkan-headers/LICENSES/Apache-2.0.txt",
+      "method": "verbatim local copy",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "file": "licenses/vulkan-headers/LICENSES/MIT.txt",
+      "source": "thirdparty/rexglue-sdk/thirdparty/vulkan-headers/LICENSES/MIT.txt",
+      "method": "verbatim local copy",
+      "sha256": "1ca3502222d967f3be5751c55f6b7ee735b5383909c3b501495f54b216dbf227"
+    },
+    {
+      "file": "licenses/vulkan-memory-allocator/LICENSE.txt",
+      "source": "thirdparty/rexglue-sdk/thirdparty/vulkan-memory-allocator/LICENSE.txt",
+      "method": "verbatim local copy",
+      "sha256": "8d70e4cf2a9941f6454da71cd60e38484dd3e34810c824760d550e982af6d97a"
+    },
+    {
+      "file": "licenses/xxhash/LICENSE",
+      "source": "thirdparty/rexglue-sdk/thirdparty/xxHash/LICENSE",
+      "method": "verbatim local copy",
+      "sha256": "6ffedbc0f7878612d2b23589f1ff2ab15633e1df7963a5d9fc750ec5500c7e7a"
+    },
+    {
+      "file": "licenses/runtime/gcc/COPYING",
+      "source_distribution": "runtime-sources-20261004.tar.gz",
+      "source": "gcc/COPYING",
+      "sha256": "231f7edcc7352d7734a96eef0b8030f77982678c516876fcb81e25b32d68564c"
+    },
+    {
+      "file": "licenses/runtime/gcc/COPYING.LIB",
+      "source_distribution": "runtime-sources-20261004.tar.gz",
+      "source": "gcc/COPYING.LIB",
+      "sha256": "a9bdde5616ecdd1e980b44f360600ee8783b1f99b8cc83a2beb163a0a390e861"
+    },
+    {
+      "file": "licenses/runtime/gcc/COPYING.RUNTIME",
+      "source_distribution": "runtime-sources-20261004.tar.gz",
+      "source": "gcc/COPYING.RUNTIME",
+      "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74"
+    },
+    {
+      "file": "licenses/runtime/gcc/COPYING3",
+      "source_distribution": "runtime-sources-20261004.tar.gz",
+      "source": "gcc/COPYING3",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+    },
+    {
+      "file": "licenses/runtime/gcc/COPYING3.LIB",
+      "source_distribution": "runtime-sources-20261004.tar.gz",
+      "source": "gcc/COPYING3.LIB",
+      "sha256": "a853c2ffec17057872340eee242ae4d96cbf2b520ae27d903e1b2fef1a5f9d1c"
+    },
+    {
+      "file": "licenses/runtime/gcc/gcc/BASE-VER",
+      "source_distribution": "runtime-sources-20261004.tar.gz",
+      "source": "gcc/gcc/BASE-VER",
+      "sha256": "f6c5e1d05dfc57f8c685df62f1fa355ca73d92904bca4be01754727cfe0552b4"
+    },
+    {
+      "file": "licenses/runtime/gcc/libbacktrace/NOTICE.txt",
+      "source_distribution": "runtime-sources-20261004.tar.gz",
+      "source": "gcc/libbacktrace/NOTICE.txt",
+      "sha256": "edc71a163de21859d400bf5d0a2f985cc941793f2dce1a93f0e4b6ca675ef685"
+    },
+    {
+      "file": "licenses/runtime/gcc/libbacktrace/backtrace.h",
+      "source_distribution": "runtime-sources-20261004.tar.gz",
+      "source": "gcc/libbacktrace/backtrace.h",
+      "sha256": "3695896e276d61d9188956305b5d134729bdc5e9e9d70b247be486296bfcdf8b"
+    },
+    {
+      "file": "licenses/runtime/gcc/libgcc/libgcc2.c",
+      "source_distribution": "runtime-sources-20261004.tar.gz",
+      "source": "gcc/libgcc/libgcc2.c",
+      "sha256": "83e1247be3f78dd8c70d32c4df95f04161c0f47838cf62be8cdb5b9eb2f06c34"
+    },
+    {
+      "file": "licenses/runtime/gcc/libstdc++-v3/README",
+      "source_distribution": "runtime-sources-20261004.tar.gz",
+      "source": "gcc/libstdc++-v3/README",
+      "sha256": "28ccfda26b0f50642bb79c2e2ea2ec0d8a8a5fd9199ea573b28309a92f673607"
+    },
+    {
+      "file": "licenses/runtime/gcc/libstdc++-v3/doc/html/manual/license.html",
+      "source_distribution": "runtime-sources-20261004.tar.gz",
+      "source": "gcc/libstdc++-v3/doc/html/manual/license.html",
+      "sha256": "6ef2606fad7fce5ba388fef9d8d137178d0135f3d2c538b664229b58eae5ce06"
+    },
+    {
+      "file": "licenses/runtime/gcc/libstdc++-v3/include/pstl/LICENSE.txt",
+      "source_distribution": "runtime-sources-20261004.tar.gz",
+      "source": "gcc/libstdc++-v3/include/pstl/LICENSE.txt",
+      "sha256": "0ca8cbe9219a841f9bc8fbb1f8ecdf5e39b1b0e23ee10fb6b0c090d8987dd1eb"
+    },
+    {
+      "file": "licenses/runtime/glibc/COPYING.LESSERv2",
+      "source_distribution": "runtime-sources-20261004.tar.gz",
+      "source": "glibc/COPYING.LESSERv2",
+      "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95"
+    },
+    {
+      "file": "licenses/runtime/glibc/COPYING.LIB",
+      "source_distribution": "runtime-sources-20261004.tar.gz",
+      "source": "glibc/COPYING.LIB",
+      "sha256": "20e50fe7aae3e56378ebf0417d9de904f55a0e61e4df315333e632a4d3555d95"
+    },
+    {
+      "file": "licenses/runtime/glibc/COPYINGv2",
+      "source_distribution": "runtime-sources-20261004.tar.gz",
+      "source": "glibc/COPYINGv2",
+      "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+    },
+    {
+      "file": "licenses/runtime/glibc/COPYINGv3",
+      "source_distribution": "runtime-sources-20261004.tar.gz",
+      "source": "glibc/COPYINGv3",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "file": "licenses/runtime/glibc/INSTALL",
+      "source_distribution": "runtime-sources-20261004.tar.gz",
+      "source": "glibc/INSTALL",
+      "sha256": "68d40aeb5f0458ad823a6a9fc9290a53dc5914d1206ed88cd10d284fe1e9da72"
+    },
+    {
+      "file": "licenses/runtime/glibc/LICENSES",
+      "source_distribution": "runtime-sources-20261004.tar.gz",
+      "source": "glibc/LICENSES",
+      "sha256": "b22a69aa3f80a5201818c66cb0df0f25f9fa13cf5861b0093a058dbd12d50dce"
+    },
+    {
+      "file": "licenses/runtime/glibc/README",
+      "source_distribution": "runtime-sources-20261004.tar.gz",
+      "source": "glibc/README",
+      "sha256": "50d8e74d8294710f19b1ca014afc6c57005517bae7bd111cd71c78e7f0c8faa2"
+    },
+    {
+      "file": "licenses/runtime/glibc/version.h",
+      "source_distribution": "runtime-sources-20261004.tar.gz",
+      "source": "glibc/version.h",
+      "sha256": "a8ac06ea97b5147f6ac5f88676568397a354d211d5c139807bd617a73c531a10"
+    }
+  ]
+}

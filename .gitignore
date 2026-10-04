@@ -1,0 +1,13 @@
+ac6recomp
+ac6recomp.toml
+ac6recomp.log
+/runtime/
+/user-data/
+/dlc/
+/runtime-state/
+__pycache__/
+*.pyc
+*.tar.gz
+*.tar.xz
+*.tar.zst
+/relink-kit/

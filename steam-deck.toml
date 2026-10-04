@@ -1,0 +1,70 @@
+# Steam Deck candidate accepted 2026-09-13.
+# Copy beside ac6recomp as ac6recomp.toml. The launcher runs in that directory.
+# Set game_iso to your own ISO path; choose your own save and DLC directories.
+# Only machine paths differ from the recorded installed configuration.
+
+ac6_graphics_backend = "vulkan"
+fullscreen = true
+draw_resolution_scale_x = 1
+draw_resolution_scale_y = 1
+vsync = true
+ac6_native_renderer = true
+ac6_native_takeover = true
+ac6_native_shared_authority = true
+ac6_native_takeover_enable_marker = "runtime-state/ENABLE_NATIVE_TAKEOVER"
+ac6_native_takeover_disable_marker = "runtime-state/DISABLE_NATIVE_TAKEOVER"
+ac6_native_validate_resolves = false
+ac6_native_propagate_unvalidated = true
+ac6_native_propagate_after_swaps = 2
+ac6_native_resolve_min_oracle_match_percent = 100
+ac6_native_resolve_oracle_tolerance = 0
+trace_gpu_prefix = "runtime-state"
+trace_gpu_capture_marker = "runtime-state/CAPTURE_NEXT_FRAME"
+async_shader_compilation = true
+vulkan_async_skip_incomplete_frames = true
+vulkan_pipeline_creation_threads = 2
+vulkan_dynamic_rendering = true
+vulkan_submit_on_primary_buffer_end = true
+vulkan_max_primary_buffer_ends_without_present = 8
+occlusion_query_enable = false
+depth_float24_convert_in_pixel_shader = false
+depth_float24_round = false
+ac6_unlock_fps = true
+ac6_dynamic_vblank = true
+ac6_performance_mode = true
+ac6_terrain_hd = false
+ac6_fullres_effects = false
+ac6_effect_mode_fix = false
+input_backend = "sdl"
+mnk_mode = false
+audio_backend = "sdl"
+audio_deep_trace = false
+audio_trace_render_driver_verbose = false
+audio_callback_low_water_frames = 4
+audio_callback_target_queue_depth = 6
+iso_direct = true
+game_iso = "game.iso"
+user_data_root = "user-data"
+dlc_containers = true
+dlc_dir = "dlc"
+license_mask = 4294967295
+log_level = "warn"
+log_noisy = false
+native_2x_msaa = true
+audio_pin_sound_thread = false
+ac6_fps_target = 60.0
+anisotropic_override = 1
+ac6_world_msaa_1x = true
+
+# Verified save I/O and visually checked Deck candidate, 2026-09-13.
+execute_unclipped_draw_vs_on_cpu = true
+ac6_kbm_enabled = false
+log_file = "ac6recomp.log"
+
+# Clear transfer and bounded pacing improvements validated in Mission 1.
+# 60 FPS target; sustained headroom and tail latency remain under investigation.
+ac6_max_sim_fps = 60.0
+vulkan_ac6_rect_clear_lowering = true
+vulkan_ac6_clear_discard_transfers = true
+present_pacing_preserve_phase = true
+ac6_present_max_in_flight = 2
